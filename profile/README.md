@@ -1,5 +1,3 @@
-# Avalon
-
 Office, Studio, and Lounge: A suite of Linux apps in Rust for the Linux desktop and SteamOS.
 
 <pre>

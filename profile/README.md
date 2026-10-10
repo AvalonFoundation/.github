@@ -1,5 +1,3 @@
-Office, Studio, and Lounge: A suite of Linux apps in Rust for the Linux desktop and SteamOS.
-
 <pre>
 ── unprefixed ──────────────────────────────────────────
 <a href="https://github.com/AvalonFoundation/.github">.github</a>          org profile, issue and PR templates, CONTRIBUTING

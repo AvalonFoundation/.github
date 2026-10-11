@@ -7,7 +7,6 @@
 
 ── design-* ────────────────────────────────────────────
 <a href="https://github.com/AvalonFoundation/design-ui-kit">design-ui-kit</a>    UI Kit and its tokens
-<a href="https://github.com/AvalonFoundation/design-icons">design-icons</a>     app icons, symbolic icon set
 <a href="https://github.com/AvalonFoundation/design-mockups">design-mockups</a>   one folder per app
 <a href="https://github.com/AvalonFoundation/design-brand">design-brand</a>     logo, mark, box art
 

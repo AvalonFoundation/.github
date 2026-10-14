@@ -16,8 +16,8 @@
 <a href="https://github.com/AvalonFoundation/app-cadence">app-cadence</a> <a href="https://github.com/AvalonFoundation/app-cascade">app-cascade</a>                                topic: lounge
 
 ── lib-* ───────────────────────────────────────────────
-<a href="https://github.com/AvalonFoundation/lib-ui">lib-ui</a>           lib-ui           Iced components, theme, focus engine
-                 ui-demo          Avalon UI, the demo and test app
+<a href="https://github.com/AvalonFoundation/lib-ui">lib-ui</a>           avalon-ui        Iced components, theme, focus engine
+                 avalon-ui-demo   Avalon UI, the demo and test app
 <a href="https://github.com/AvalonFoundation/lib-platform">lib-platform</a>     avalon-platform  Steam, Flatpak, Game Mode, controller input,
                                   file picker, notifications, tray, paths,
                                   theme detection

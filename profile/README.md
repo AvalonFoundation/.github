@@ -19,10 +19,9 @@
 <a href="https://github.com/AvalonFoundation/lib-ui">lib-ui</a>           Iced components, theme, focus engine, UI demo app
 <a href="https://github.com/AvalonFoundation/lib-platform">lib-platform</a>     Steam, Flatpak, Game Mode, controller input, file picker,
                  notifications, tray, paths, theme detection
-<a href="https://github.com/AvalonFoundation/lib-render">lib-render</a>       GPU compositing, shaders, colour management
-<a href="https://github.com/AvalonFoundation/lib-media">lib-media</a>        GStreamer decode, encode, mux
+<a href="https://github.com/AvalonFoundation/lib-video">lib-video</a>        GPU compositing, colour management, GStreamer,
+                 Mimic → Tribute frames with alpha
 <a href="https://github.com/AvalonFoundation/lib-assets">lib-assets</a>       offline pack index, cache, licence metadata
-<a href="https://github.com/AvalonFoundation/lib-link">lib-link</a>         Mimic → Tribute frames with alpha
 <a href="https://github.com/AvalonFoundation/lib-ai">lib-ai</a>           model manager and AI crates
 <a href="https://github.com/AvalonFoundation/lib-3d">lib-3d</a>           mesh, scene graph, materials
 

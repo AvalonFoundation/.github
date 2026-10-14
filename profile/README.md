@@ -16,14 +16,18 @@
 <a href="https://github.com/AvalonFoundation/app-cadence">app-cadence</a> <a href="https://github.com/AvalonFoundation/app-cascade">app-cascade</a>                                topic: lounge
 
 ── lib-* ───────────────────────────────────────────────
-<a href="https://github.com/AvalonFoundation/lib-ui">lib-ui</a>           Iced components, theme, focus engine, UI demo app
-<a href="https://github.com/AvalonFoundation/lib-platform">lib-platform</a>     Steam, Flatpak, Game Mode, controller input, file picker,
-                 notifications, tray, paths, theme detection
-<a href="https://github.com/AvalonFoundation/lib-video">lib-video</a>        GPU compositing, colour management, GStreamer,
-                 Mimic → Tribute frames with alpha
-<a href="https://github.com/AvalonFoundation/lib-assets">lib-assets</a>       offline pack index, cache, licence metadata
-<a href="https://github.com/AvalonFoundation/lib-ai">lib-ai</a>           model manager and AI crates
-<a href="https://github.com/AvalonFoundation/lib-3d">lib-3d</a>           mesh, scene graph, materials
+<a href="https://github.com/AvalonFoundation/lib-ui">lib-ui</a>           lib-ui           Iced components, theme, focus engine
+                 ui-demo          Avalon UI, the demo and test app
+<a href="https://github.com/AvalonFoundation/lib-platform">lib-platform</a>     avalon-platform  Steam, Flatpak, Game Mode, controller input,
+                                  file picker, notifications, tray, paths,
+                                  theme detection
+<a href="https://github.com/AvalonFoundation/lib-video">lib-video</a>        avalon-render    GPU compositing, shaders, colour management
+                 avalon-media     GStreamer decode, encode, mux
+                 avalon-feed      Mimic → Tribute frames with alpha
+<a href="https://github.com/AvalonFoundation/lib-assets">lib-assets</a>       avalon-assets    offline pack index, cache, licence metadata
+<a href="https://github.com/AvalonFoundation/lib-ai">lib-ai</a>           avalon-ai        model manager, plus crates for stt, tts,
+                                  vision, llm and tracking
+<a href="https://github.com/AvalonFoundation/lib-3d">lib-3d</a>           avalon-3d        mesh, scene graph, materials
 
 ── packs-* ─────────────────────────────────────────────
 <a href="https://github.com/AvalonFoundation/packs-fonts">packs-fonts</a>      font packs

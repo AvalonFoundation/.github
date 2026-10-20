@@ -13,7 +13,7 @@
 ── app-* ───────────────────────────────────────────────
 <a href="https://github.com/AvalonFoundation/app-write">app-write</a> <a href="https://github.com/AvalonFoundation/app-tally">app-tally</a> <a href="https://github.com/AvalonFoundation/app-present">app-present</a> <a href="https://github.com/AvalonFoundation/app-layout">app-layout</a>             topic: office
 <a href="https://github.com/AvalonFoundation/app-tribute">app-tribute</a> <a href="https://github.com/AvalonFoundation/app-mimic">app-mimic</a> <a href="https://github.com/AvalonFoundation/app-fetch">app-fetch</a> <a href="https://github.com/AvalonFoundation/app-cut">app-cut</a> <a href="https://github.com/AvalonFoundation/app-reel">app-reel</a>       topic: studio
-<a href="https://github.com/AvalonFoundation/app-cadence">app-cadence</a> <a href="https://github.com/AvalonFoundation/app-cascade">app-cascade</a>                                topic: lounge
+<a href="https://github.com/AvalonFoundation/app-cadence">app-cadence</a> <a href="https://github.com/AvalonFoundation/app-gander">app-gander</a> <a href="https://github.com/AvalonFoundation/app-cascade">app-cascade</a>                     topic: lounge
 
 ── lib-* ───────────────────────────────────────────────
 <a href="https://github.com/AvalonFoundation/lib-ui">lib-ui</a>           avalon-ui        Iced components, theme, focus engine

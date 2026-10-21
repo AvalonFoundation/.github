@@ -1,0 +1,48 @@
+name: Bug
+description: Something that doesn't work as the code, a decision record or a design says it should.
+title: "<what's wrong>"
+type: Bug
+labels: [proposed]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen
+      description: And where that's stated, if it is (a decision record, a design, a test).
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1. 
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: "v0.1.0, or a commit SHA"
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Desktop or Steam Deck, distro, GPU, controller, display scale.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or output
+      render: text
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: A command that fails now and passes once it's fixed, if there is one. Needed before the bug can be `ready`.
+      render: sh

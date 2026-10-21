@@ -1,0 +1,56 @@
+name: Agent task
+description: One piece of work an agent can pick up, build and verify on its own.
+title: "<verb> <what>"
+type: Task
+labels: [proposed]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New issues start as `proposed`; only the owner labels one `ready`. An issue without a verification command can't be `ready`. The process: [agent workflow](https://github.com/AvalonFoundation/handbook/blob/main/docs/process/agent-workflow.md).
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What's true when this is done, in a sentence or two.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Links to the decision records, designs, issues or code this rests on.
+      placeholder: |
+        - Decision: https://github.com/AvalonFoundation/handbook/blob/main/docs/decisions/…
+        - Design: …
+    validations:
+      required: true
+  - type: textarea
+    id: touches
+    attributes:
+      label: Repos and crates touched
+      placeholder: "lib-ui: avalon-ui (src/tile.rs), avalon-ui-demo (Gallery)"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Checkboxes. The agent does these and nothing else.
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: The command or commands that show it's done, run from the repo root. The repo's own tests, lint and format checks run as well.
+      render: sh
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What this issue doesn't do, so it isn't done by accident.

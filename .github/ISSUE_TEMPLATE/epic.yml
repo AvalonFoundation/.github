@@ -1,0 +1,33 @@
+name: Epic
+description: An outcome made of several agent tasks, broken down with decompose-epic.
+title: "Epic: <outcome>"
+type: Epic
+labels: [proposed]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An epic is decomposed into sub-issues (agent tasks), all `proposed` until the owner labels them `ready`. The process: [agent workflow](https://github.com/AvalonFoundation/handbook/blob/main/docs/process/agent-workflow.md).
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What's true for users or other repos when the epic is done.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What's in, what's out, and the decision records or designs it rests on.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: Checkboxes that, together, close the epic.
+      value: |
+        - [ ] 
+    validations:
+      required: true

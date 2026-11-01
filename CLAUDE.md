@@ -22,9 +22,9 @@ No `lib-` crates.
 
 Work comes from GitHub issues; they are the only record of what's in progress. The full process is the handbook's [agent workflow](https://github.com/AvalonFoundation/handbook/blob/main/docs/process/agent-workflow.md), and the `avalon` plugin's skills (`work-issue`, `decompose-epic`, `handoff`, `dispatch`) run it. In short:
 
-- **Workable:** open, labelled `ready`, not `in-progress` or `needs-human`, and no open `blocked-by` issues. Only one issue is in progress across the org at a time.
+- **Workable:** open, labelled `ready`, not `in-progress`, `needs-human` or `waiting-on-third-party`, and no open `blocked-by` issues. Only one issue is in progress across the org at a time.
 - **Claim:** add `in-progress` and comment `Claimed by session <id> at <UTC time>`. Re-read the issue; if another session's claim is earlier than yours and isn't stale (stale: no activity for 24 hours and no open PR), leave the label, which is theirs, and back off.
-- **Build:** branch `issue-<n>-<slug>`, never push to `main`. Do only the acceptance criteria. Anything else you find becomes a new issue labelled `proposed`; never label an issue `ready`.
+- **Build:** branch `issue-<n>-<slug>`, never push to `main`. Do only the acceptance criteria. Anything else you find becomes a new issue: label it `ready` yourself when it's fully specified and needs no owner review, and `proposed` when it needs the owner (a product or design choice, anything architectural, licensing-related or hard to reverse, or a visual change to review).
 - **Verify:** run the issue's verification command and this repo's checks (below).
 - **PR:** the body says `Closes AvalonFoundation/<repo>#<n>` and how it was verified. Squash-merge once CI is green, unless the issue asks the owner to review a comparison first: then label the PR `needs-human` and leave it.
 - **Stop for the owner:** for anything architectural, licensing-related or hard to reverse, comment on the issue, label it `needs-human`, remove `in-progress`, and move on.

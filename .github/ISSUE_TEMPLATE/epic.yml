@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        An epic is decomposed into sub-issues (agent tasks), all `proposed` until the owner labels them `ready`. The process: [agent workflow](https://github.com/AvalonFoundation/handbook/blob/main/docs/process/agent-workflow.md).
+        An epic is decomposed into sub-issues (agent tasks), each `ready`, or `proposed` when it needs the owner's review. The process: [agent workflow](https://github.com/AvalonFoundation/handbook/blob/main/docs/process/agent-workflow.md).
   - type: textarea
     id: outcome
     attributes:

@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        New issues start as `proposed`; only the owner labels one `ready`. An issue without a verification command can't be `ready`. The process: [agent workflow](https://github.com/AvalonFoundation/handbook/blob/main/docs/process/agent-workflow.md).
+        New issues start as `proposed`. An agent labels one `ready` itself when it's fully specified and needs no owner review; the owner labels the rest. An issue without a verification command can't be `ready`. The process: [agent workflow](https://github.com/AvalonFoundation/handbook/blob/main/docs/process/agent-workflow.md).
   - type: textarea
     id: goal
     attributes:
